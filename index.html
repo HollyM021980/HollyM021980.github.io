@@ -80,9 +80,9 @@
     (function(document){
         // Credit for the base image slidesnow javascript, css and html goes to
         //   http://themarklee.com/2013/12/26/simple-diy-responsive-slideshow-made-html5-css3-javascript/
-        var counter = 0, // to keep track of current slide
-        $items = document.querySelectorAll('.center-slideshow figure'), // a collection of all of the slides, caching for performance
-        numItems = $items.length; // total number of slides
+        var $items = document.querySelectorAll('.center-slideshow figure'), // a collection of all of the slides, caching for performance
+        numItems = $items.length, // total number of slides
+        counter = numItems; // to keep track of current slide
 
         // this function is what cycles the slides, showing the next or previous slide and hiding all the others
         var showCurrent = function(){
