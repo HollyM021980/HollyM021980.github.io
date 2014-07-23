@@ -39,10 +39,13 @@
     max-width: 30%;
   }
 
+  .bottom-right {
+    margin 30px;
+  }
+
   .top-left p,
   .bottom-right p {
     text-align: center;
-    font-style: italic;
     font-size: small;
     text-indent: 0;
   }
@@ -77,6 +80,7 @@
     position: relative;
     display: block;
     overflow: hidden;
+    padding: 0 5px 0 0;
   }
   figure{
     position: absolute;
@@ -86,12 +90,13 @@
   }
   figcaption{
     position: absolute;
-    font-family: sans-serif;
+    font-family: 'Dancing Script', cursive;
     font-size: .8em;
     bottom: .75em;
     right: .35em;
     padding: .25em;
     color: #fff;
+
     background: #000;
     background: rgba(0,0,0, .25);
     border-radius: 2px;
@@ -133,20 +138,19 @@
     border-bottom-right-radius: 3px;
   }
 
-/*
   .quotes {
+    /*
     max-width: 700px;
     padding: 20px;
     margin: 0 auto;
+    */
   }
-*/
   .quotes p {
     font-size: smaller;
   }
   .quotes cite {
     font-weight: bold;
     font-size: smaller;
-    font-style: italic;
   }
 
   blockquote{
