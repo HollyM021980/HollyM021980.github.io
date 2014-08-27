@@ -51,6 +51,8 @@
   }
 
   .tl-img {
+    width: auto;
+    height: auto;
     height: 200px;
     width: 130px;
     border: 2px solid #443B47;
