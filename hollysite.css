@@ -138,13 +138,10 @@
     border-bottom-right-radius: 3px;
   }
 
-  .quotes {
-    /*
-    max-width: 700px;
-    padding: 20px;
-    margin: 0 auto;
-    */
+ .quotes {
+    text-indent: 20px;
   }
+
   .quotes p {
     font-size: smaller;
   }
@@ -154,18 +151,15 @@
   }
 
   blockquote{
-    max-width: 700px;
     display: block;
     font-size: large;
-    text-indent: 0;
     padding: 15px 20px 15px 45px;
-    /* margin: 0 0 20px; */
     margin: 0 auto;
-    position: relative;
+    /* position: relative; */
 
     /*Font*/
     line-height: 1.2;
-    text-align: justify;
+    text-align: left;
   }
 
 
@@ -173,14 +167,14 @@
     content: "\201C"; /*Unicode for Left Double Quote*/
 
     /*Font*/
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     color: #443B47;
 
     /*Positioning*/
-    position: absolute;
+   /*  position: absolute;
     left: 10px;
-    top:5px;
+    top:5px; */
   }
 
   blockquote::after{
@@ -215,6 +209,7 @@
     }
     blockquote {
       margin-top: 5 px;
+      font-size: smaller;
     }
 
     blockquote:before {
