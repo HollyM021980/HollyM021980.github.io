@@ -1,0 +1,291 @@
+
+html {
+
+  height: 100%;
+  font-size: 62.5%;
+
+  /* Border Box*/
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  /* Background */
+  background: url(BackLitLeafGrad.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Box sizing on everything */
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.4rem;
+  color: #DBDDDD;
+  text-shadow: 1px 1px #161A1A;
+  margin-top: 12%;
+}
+
+h1, h2, h3 {
+/*  border: 1px solid green;
+*/
+}
+
+div {
+/*  border: 2px solid black;
+
+*/}
+
+#container {
+/*  width: 95%;
+  height: 600px;
+  margin: 4em auto;
+  background-color: rgba(64, 64,64, .4);
+  box-shadow: 0px 0px 30px; #404040;
+  background-position: center;
+*/}
+
+[class*='col-'] {
+  float: left;
+}
+
+.col-3-4 {
+  width: 75%;
+  padding-left: 15%;
+}
+
+.col-1-4 {
+  width: 20%;
+  padding-right: 25px;
+  padding-top: 1%;
+}
+
+
+.link-section{
+}
+
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+#holly.h1, .site-img {
+  display: inline;
+}
+
+.site-txt {
+  font-size: 1.5rem;
+}
+
+#holly-title {
+  font-size: 5.5rem;
+  color: #161A1A;
+  text-shadow: .20px .20px #DBDDDD;
+}
+
+#holly-sub {
+  color: #DBDDDD;
+  font-size: 2.5rem;
+  font-style: italic;
+/*  vertical-align: bottom;
+*/
+}
+
+.menu-img:hover {
+  -webkit-transform: rotate(20deg);
+  -moz-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  -o-transform: rotate(20deg);
+  transform: rotate(20deg);
+}
+
+#holly img {
+  height: 100px;
+  width: 100px;
+  border: 1px solid #161A1A;
+  border-radius: 100px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+#linkedin-img, #github-img {
+  height: 50px;
+  width: 50px;
+}
+
+.site-img {
+  height:  20px;
+  width: 20px;
+  margin-left: 5px;
+}
+
+#container {
+  position: relative;
+  max-width: 100%;
+/*  left: 15%;
+*/}
+
+#holly-header {
+  padding-top: 2%;
+  padding-left: 15%;
+  width: 100%;
+}
+
+#tiny {
+  font-size: 1.2rem;
+}
+#first, #second, #third, #fourth, #fifth {
+  padding: 7px;
+  font-style: italic;
+  position: relative;
+  width: 85%;
+}
+
+#first {
+  left: 40px;
+}
+
+#second {
+  left: 60px;
+}
+
+#third {
+  left: 80px;
+}
+
+#fourth {
+  left: 100px;
+}
+
+#fifth {
+  left: 120px;
+}
+
+
+@media (max-width: 500px) {
+
+  html {
+    /* Base font size */
+    font-size: 50%;
+  }
+
+  body {
+    font-size: 1.4rem;
+    margin-top: 1%;
+  }
+
+  div {
+    padding: 1px;
+  }
+
+  #container {
+    max-width: 90%;
+  }
+
+  #holly img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-right: 2px;
+  }
+
+  #linkedin-img, #github-img {
+    height: 32px;
+    width: 32px;
+  }
+
+  .col-3-4 {
+    padding-left: 2%;
+  }
+
+  .col-1-4 {
+    padding-right: 5px;
+    padding-top: 1%;
+  }
+
+  #holly-header {
+    padding-left: 2%;
+  }
+
+  #holly-title {
+    font-size: 3rem;
+  }
+
+  #holly-sub {
+    font-size: 1.4rem;
+  }
+
+
+  #first {
+    left: 2px;
+  }
+
+  #second {
+    left: 4px;
+  }
+
+  #third {
+    left: 6px;
+  }
+
+  #fourth {
+    left: 8px;
+  }
+
+  #fifth {
+    left: 10px;
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5),only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
