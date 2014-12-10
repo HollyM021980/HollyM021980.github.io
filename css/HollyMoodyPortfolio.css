@@ -5,21 +5,16 @@ html {
   font-size: 62.5%;
 
   /* Border Box*/
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 
   /* Background */
-  background: url(BackLitLeafGrad.jpg) no-repeat center center;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
+  background:
+  url(BackLitLeafGrad.jpg) no-repeat center center;
     background-size: cover;
 }
 
 /* Box sizing on everything */
 *, *:before, *:after {
-  -webkit-box-sizing: inherit;
-  -moz-box-sizing: inherit;
   box-sizing: inherit;
 }
 
@@ -100,12 +95,9 @@ div {
 }
 
 .menu-img:hover {
-  -webkit-transform: rotate(20deg);
-  -moz-transform: rotate(20deg);
-  -ms-transform: rotate(20deg);
-  -o-transform: rotate(20deg);
   transform: rotate(20deg);
 }
+
 
 #holly img {
   height: 100px;
@@ -285,7 +277,3 @@ div {
 /* Styles */
 }
 
-/* iPhone 4 ----------- */
-@media only screen and (-webkit-min-device-pixel-ratio : 1.5),only screen and (min-device-pixel-ratio : 1.5) {
-/* Styles */
-}
