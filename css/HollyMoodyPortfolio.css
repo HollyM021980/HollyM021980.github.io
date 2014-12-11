@@ -94,6 +94,7 @@ div {
 */
 }
 
+
 .menu-img:hover {
   transform: rotate(20deg);
 }
@@ -135,7 +136,7 @@ div {
   font-size: 1.2rem;
 }
 #first, #second, #third, #fourth, #fifth {
-  padding: 7px;
+  padding: 1.5%;
   font-style: italic;
   position: relative;
   width: 85%;
@@ -187,6 +188,7 @@ a:active {
 /*------------------------------------------
   Media queries
 -------------------------------------------*/
+
 
 @media (max-width: 500px) {
 
