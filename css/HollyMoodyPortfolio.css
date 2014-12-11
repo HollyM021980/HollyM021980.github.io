@@ -162,6 +162,32 @@ div {
 }
 
 
+/* unvisited link */
+a:link {
+  color: #DBDDDD;
+  text-shadow: 1px 1px #161A1A;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #939A9B;
+}
+
+/* mouse over link */
+a:hover {
+    color: #5D6769;
+}
+
+/* selected link */
+a:active {
+    color: #353C3E;
+}
+
+/*------------------------------------------
+  Media queries
+-------------------------------------------*/
+
 @media (max-width: 500px) {
 
   html {
