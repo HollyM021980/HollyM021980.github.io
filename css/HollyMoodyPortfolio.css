@@ -45,7 +45,7 @@ div {
 /*  border: 1px solid black;
 */
   font-size: 2.4rem;
-  margin-left: 5em;
+  margin-left: 6em;
   width: 30%;
 }
 
@@ -87,9 +87,8 @@ header > h2 {
 }
 img#holly-pic {
   display: block;
-  margin: auto;
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
   border: 2px solid #161A1A;
   border-radius: 100px;
 }
@@ -98,6 +97,8 @@ img#holly-pic {
 .container {
   position: relative;
   max-width: 100%;
+  margin-top: 5em;
+  margin-bottom: 5em;
 /*  left: 15%;
 */}
 
