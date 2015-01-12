@@ -1,6 +1,5 @@
 
 html {
-
   height: 100%;
   font-size: 62.5%;
 
@@ -9,8 +8,8 @@ html {
 
   /* Background */
   background:
-  url(BackLitLeafGrad.jpg) no-repeat center center;
-    background-size: cover;
+    url(images/BackLitLeaf.png) no-repeat center center;
+  background-size: cover;
 }
 
 /* Box sizing on everything */
@@ -20,11 +19,12 @@ html {
 
 
 body {
+  background: rgba(193, 205, 193, 0.75);
+  box-shadow: 0px 0px 15px 7px rgba(193, 205, 193, 0.75);
   font-family: 'Ubuntu', sans-serif;
-  font-size: 2.4rem;
-  color: #DBDDDD;
-  text-shadow: 1px 1px #161A1A;
-  margin-top: 12%;
+  color: #161A1A;
+  text-shadow: 1px 1px #838B83;
+  margin: 1%;
 }
 
 h1, h2, h3 {
@@ -37,131 +37,115 @@ div {
 
 */}
 
-#container {
-/*  width: 95%;
-  height: 600px;
-  margin: 4em auto;
-  background-color: rgba(64, 64,64, .4);
-  box-shadow: 0px 0px 30px; #404040;
-  background-position: center;
-*/}
-
-[class*='col-'] {
+.sidebar, .projects {
   float: left;
 }
 
-.col-3-4 {
-  width: 75%;
-  padding-left: 15%;
+.sidebar {
+/*  border: 1px solid black;
+*/
+  font-size: 2.4rem;
+  margin-left: 5em;
+  width: 30%;
 }
 
-.col-1-4 {
-  width: 20%;
+
+.projects {
+  margin-left: 2em;
+  height: 100%;
+  width: 50%;
   padding-right: 25px;
   padding-top: 1%;
-}
+  }
 
-
-.link-section{
-}
-
-.grid:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-#holly.h1, .site-img {
-  display: inline;
-}
 
 .site-txt {
   font-size: 1.5rem;
 }
 
+header > h2 {
+  margin: 2px;
+}
+
 #holly-title {
-  font-size: 5.5rem;
-  color: #161A1A;
-  text-shadow: .20px .20px #DBDDDD;
+  font-size: 4.5rem;
+  text-align: center;
 }
 
-#holly-sub {
-  color: #DBDDDD;
-  font-size: 2.5rem;
-  font-style: italic;
-/*  vertical-align: bottom;
-*/
+.menu img {
+  margin: 0.25em;
 }
-
 
 .menu-img:hover {
   transform: rotate(20deg);
 }
 
-
-#holly img {
+.holly {
+   margin: 0 auto;
+/*  vertical-align: middle;
+  margin-right: 5px; */
+}
+img#holly-pic {
+  display: block;
+  margin: auto;
   height: 100px;
   width: 100px;
-  border: 1px solid #161A1A;
+  border: 2px solid #161A1A;
   border-radius: 100px;
-  vertical-align: middle;
-  margin-right: 5px;
 }
 
-#linkedin-img, #github-img {
-  height: 50px;
-  width: 50px;
-}
 
-.site-img {
-  height:  20px;
-  width: 20px;
-  margin-left: 5px;
-}
-
-#container {
+.container {
   position: relative;
   max-width: 100%;
 /*  left: 15%;
 */}
 
-#holly-header {
+.holly-header {
   padding-top: 2%;
-  padding-left: 15%;
-  width: 100%;
+/*  padding-left: 15%;
+*/  width: 100%;
 }
 
 #tiny {
   font-size: 1.2rem;
 }
-#first, #second, #third, #fourth, #fifth {
+#first, #second, #third, #fourth, #fifth, #sixth {
   padding: 1.5%;
+  font-size: 2rem;
   font-style: italic;
   position: relative;
   width: 85%;
 }
 
 #first {
-  left: 40px;
+  left: 10px;
 }
 
 #second {
-  left: 60px;
+  left: 25px;
 }
 
 #third {
-  left: 80px;
+  left: 40px;
 }
 
 #fourth {
-  left: 100px;
+  left: 55px;
 }
 
 #fifth {
-  left: 120px;
+  left: 70px;
 }
 
+#sixth {
+  left: 85px;
+}
+
+.holly-links {
+  display: inline-block;
+  margin-left: 120px;
+}
 
 /* unvisited link */
 a:link {
@@ -183,6 +167,12 @@ a:hover {
 /* selected link */
 a:active {
     color: #353C3E;
+}
+
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /*------------------------------------------
@@ -222,16 +212,16 @@ a:active {
     width: 32px;
   }
 
-  .col-3-4 {
+  .sidebar {
     padding-left: 2%;
   }
 
-  .col-1-4 {
+  .projects {
     padding-right: 5px;
     padding-top: 1%;
   }
 
-  #holly-header {
+  .holly-header {
     padding-left: 2%;
   }
 
