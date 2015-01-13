@@ -9,6 +9,7 @@
   <link rel="shortcut icon" href="images/H.png">
 </head>
 <body>
+  <span style="opacity: .7" <div id="bg_pattern" ></div></span>
   <div class="container">
     <div class="sidebar">
       <header class="holly-header">
@@ -24,28 +25,32 @@
       <div id="fifth">Creative and resourceful</div>
       <div id="sixth">Life-long student, rewrite myself over time</div>
       <div class="holly-links">
-          <a class="menu" href="https://github.com/HollyM021980">
+          <a class="menu" href="http://www.linkedin.com/in/hollycmoody" target="_blank">
+            <img class="menu-img" id="linkedin-img" src="images/linkedin-32.png" alt="Holly's Linkedin">
+          </a>
+          <a class="menu" href="https://github.com/HollyM021980" target="_blank">
             <img class="menu-img" id="github-img" src="images/github-32.png" alt="Holly's Github Page">
           </a>
-          <a class="menu" href="assets/HollyCMoodyDevV2.pdf" target="_blank">
+          <a class="menu" href="assets/ResumeV2-HollyCMoody.pdf" target="_blank">
             <img class="menu-img" src="images/info-32.png" alt="Holly's Resume">
           </a>
           <a class="menu" href="mailto:hollymoody@charter.net" target="_top">
             <img class="menu-img" src="images/contact-32.png" alt="Holly's Email">
           </a>
-          <a class="menu" href="http://www.linkedin.com/in/hollycmoody">
-            <img class="menu-img" id="linkedin-img" src="images/linkedin-32.png" alt="Holly's Linkedin">
-          </a>
       </div>
     </div>
-    <div class="projects">
-      <div>
-        <a href="http://hollym021980.github.io/movin-there">
-          <img class="menu-img" src="images/play_circle.png" alt="MovnThere" style="border:0">
-        </a>
-        <a class="site-txt" href="http://hollym021980.github.io/movin-there">MovnThere</a>
+    <div class="projects-pane">
+      <div id="movn-there" class="project">
+        <p class="desc">
+          <a class="proj-link" href="http://hollym021980.github.io/movin-there" target="_blank">MovnThere</a>
+          <span id="arrow"><img src="images/arrow_up.png" alt="MovnThere" class="swap-arrow"></span>
+          <br>
+          <small>MovnThere facilitates discovery and capture of “favorites so far” as people research where they will live during their next adventure!!  This can be done today but it requires searching multiple places. And a separate mechanism for storing research results along the way.  MovnThere provides a mechanism to search for communities and see info such as census data, transportation and local points of interest (arts/museums, parks etc) and store favorites along the way!</small>
+        </p>
       </div>
     </div>
   </div>
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="scripts/main.js"></script>
 </body>
 </html>
