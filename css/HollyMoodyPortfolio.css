@@ -198,10 +198,10 @@ div.project {
 .project > p {
   height:30px;
   color: rgba(240, 255, 240,1);
-  background: black;
-  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.7));
-  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.7));
-  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.7));
+  background: #161A1A;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.8));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.8));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.8));
   padding: 10px;
   line-height: 150%;
   text-align: left;
@@ -219,7 +219,7 @@ small {
 }
 
 .show-description p {
-  height: 150px;
+  height: 120px;
 }
 
 .show-description small {
