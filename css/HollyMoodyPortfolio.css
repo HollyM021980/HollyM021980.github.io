@@ -195,13 +195,18 @@ div.project {
   z-index: 888;
 }
 
+#bobs-bagels {
+  background-image: url("images/BobsBagels.png");
+  z-index: 888;
+}
+
 .project > p {
   height:30px;
   color: rgba(240, 255, 240,1);
   background: #161A1A;
-  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.8));
-  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.8));
-  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.8));
+  background: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,.8));
+/*  background: -webkit-linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,.8));
+*/  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.8));
   padding: 10px;
   line-height: 150%;
   text-align: left;
@@ -280,10 +285,10 @@ div.dialog {
   text-decoration: none;
   font-weight: bold;
   -webkit-border-radius: 12px;
-  -moz-border-radius: 12px;
-  border-radius: 12px;
-  -moz-box-shadow: 1px 1px 3px #000;
-  -webkit-box-shadow: 1px 1px 3px #000;
+/*  -moz-border-radius: 12px;
+*/  border-radius: 12px;
+ /* -moz-box-shadow: 1px 1px 3px #000;
+*/  -webkit-box-shadow: 1px 1px 3px #000;
   box-shadow: 1px 1px 3px #000;
 }
 
